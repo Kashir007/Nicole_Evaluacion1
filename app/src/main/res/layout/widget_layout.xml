@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FF0000">
+
+    <TextView
+        android:id="@+id/widgetTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TaskMaster Widget"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/widgetButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#FFC107"
+        android:text="Abrir app" />
+</LinearLayout>

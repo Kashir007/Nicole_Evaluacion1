@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">splashscreen</string>
+    <string-array name="prioridades_array">
+        <item>Urgente</item>
+        <item>Importante</item>
+        <item>Poco importante</item>
+    </string-array>
+</resources>
